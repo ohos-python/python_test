@@ -10,6 +10,9 @@ https://ohos-python.github.io/python_test/
 统一覆盖口径：三方库包名出现在 `tasks_all.csv`，或者 PyPI 近 30 天下载排名
 位于 Top 5 万，即视为已经纳入适配目录。版本号和任务结果状态不参与判断。
 
+项目诉求迁移覆盖率按每个项目识别出的唯一依赖库计算；只有 `tasks_all.csv`
+中至少存在一条同名 `status=done` 记录才算完成迁移，Top 5 万补充认定不计入完成数。
+
 ## 下载文件
 
 - [完整分析数据](site/ohos_python_scenario_coverage.json)
